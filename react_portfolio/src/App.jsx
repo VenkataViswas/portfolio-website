@@ -207,6 +207,74 @@ const Projects = () => (
           </a>
         </div>
       </div>
+            <div className="project-card glass-card">
+        <div className="project-content">
+          <h3>Text Classification using NLTK & Machine Learning</h3>
+          <p>
+            Built a text classification pipeline for spam detection using
+            <strong> NLTK </strong> and <strong> scikit-learn</strong>. Included data
+            cleaning, tokenization, stopword removal, lemmatization, and Bag of Words
+            feature extraction with a Naive Bayes classifier.
+          </p>
+
+          <div className="tech-stack">
+            <span>Python</span>
+            <span>NLTK</span>
+            <span>Scikit-learn</span>
+            <span>Pandas</span>
+            <span>Jupyter Notebook</span>
+          </div>
+
+          <p className="mt-2">
+            Achieved <strong>98.47% accuracy</strong> with excellent precision and recall
+            for both spam and ham messages.
+          </p>
+
+          <a
+            href="https://github.com/VenkataViswas/Text-Classification-using-NLTK-and-ML"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn"
+          >
+            <i className="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+      </div>
+
+      <div className="project-card glass-card">
+        <div className="project-content">
+          <h3>Sentiment Analysis using Custom Avg Word2Vec & Logistic Regression</h3>
+          <p>
+            Designed a sentiment analysis model using custom <strong>Word2Vec</strong>
+            embeddings averaged per sentence and classified with
+            <strong> Logistic Regression</strong>. Preprocessing included tokenization,
+            lowercasing, and stopword removal.
+          </p>
+
+          <div className="tech-stack">
+            <span>Python</span>
+            <span>Gensim</span>
+            <span>Scikit-learn</span>
+            <span>NumPy</span>
+            <span>Jupyter Notebook</span>
+          </div>
+
+          <p className="mt-2">
+            Reached <strong>81.75% accuracy</strong> with balanced precision and recall
+            across positive and negative sentiments.
+          </p>
+
+          <a
+            href="https://github.com/VenkataViswas/Sentiment-Analysis-using-Custom-Word2Vec-and-Logistic-Regression"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn"
+          >
+            <i className="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+      </div>
+
       <div className="project-card glass-card">
         <div className="project-content">
           <h3>Algeria FireWatch Risk Estimator</h3>
