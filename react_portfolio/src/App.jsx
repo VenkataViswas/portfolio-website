@@ -230,7 +230,7 @@ const Projects = () => (
           
 
           <a
-            href="https://github.com/VenkataViswas/Text-Classification-using-NLTK-and-ML"
+            href="https://github.com/VenkataViswas/Spam-Ham-Classification-using-NLTK"
             target="_blank"
             rel="noopener noreferrer"
             className="btn"
@@ -262,7 +262,7 @@ const Projects = () => (
 
 
           <a
-            href="https://github.com/VenkataViswas/Sentiment-Analysis-using-Custom-Word2Vec-and-Logistic-Regression"
+            href="https://github.com/VenkataViswas/Sentiment-Analysis-using-Custom-Avg-Word2Vec-and-Logistic-Regression"
             target="_blank"
             rel="noopener noreferrer"
             className="btn"
