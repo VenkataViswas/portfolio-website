@@ -108,79 +108,138 @@ const Hero = () => (
 const About = () => (
   <section id="about" className="container">
     <h2>About Me</h2>
+
     <div className="about-content glass-card">
       <p className="about-text">
-        I am an aspiring <strong>Machine Learning Engineer</strong> passionate
-        about <strong>building real-world AI solutions</strong>. Skilled in{" "}
-        <strong>Machine Learning</strong>, <strong>Deep Learning</strong>,{" "}
-        <strong>Natural Language Processing (NLP)</strong>, and{" "}
-        <strong>MLOps</strong>, I have hands-on experience with technologies
-        like <strong>Python</strong>, <strong>TensorFlow</strong>,{" "}
-        <strong>Scikit-Learn</strong>, <strong>Flask</strong>, and{" "}
-        <strong>Docker</strong>. I am also familiar with{" "}
-        <strong>model deployment practices</strong>,{" "}
-        <strong>API development</strong>, and <strong>cloud platforms</strong>{" "}
-        like <strong>AWS</strong>, allowing me to take machine learning models
-        from experimentation to production. My learning journey has taught me
-        to <strong>think critically</strong>,{" "}
-        <strong>solve problems efficiently</strong>, and{" "}
-        <strong>adapt to new technologies quickly</strong>.
+        I am a <strong>Machine Learning & Generative AI Engineer</strong> with a
+        strong focus on building <strong>end-to-end, production-ready AI systems</strong>.
+        My expertise spans <strong>Machine Learning</strong>,{" "}
+        <strong>Deep Learning</strong>, <strong>Natural Language Processing (NLP)</strong>,
+        and <strong>Retrieval-Augmented Generation (RAG)</strong>.
       </p>
+
+      <p className="about-text">
+        I have hands-on experience designing intelligent pipelines using{" "}
+        <strong>Python</strong>, <strong>Scikit-learn</strong>,{" "}
+        <strong>TensorFlow/Keras</strong>, <strong>LangChain</strong>,{" "}
+        <strong>Sentence Transformers</strong>, and <strong>FAISS</strong>.
+        I actively work on <strong>model deployment</strong>,{" "}
+        <strong>API development</strong>, and <strong>MLOps workflows</strong>{" "}.
+       
+      </p>
+
+      <p className="about-text">
+        I enjoy transforming ideas into scalable AI solutions — from{" "}
+        <strong>data preprocessing and modeling</strong> to{" "}
+        <strong>cloud deployment and monitoring</strong>. I am highly adaptable,
+        continuously learning, and driven by solving real-world problems using AI.
+      </p>
+
       <div className="highlights">
         <span className="highlight-item">Machine Learning</span>
         <span className="highlight-item">Deep Learning</span>
-        <span className="highlight-item">NLP</span>
+        <span className="highlight-item">NLP & RAG</span>
+        <span className="highlight-item">Generative AI</span>
         <span className="highlight-item">MLOps</span>
+        <span className="highlight-item">Model Deployment</span>
         <span className="highlight-item">API Development</span>
-        <span className="highlight-item">Problem Solving</span>
-        <span className="highlight-item">Full Stack Development</span>
+        <span className="highlight-item">AWS & Cloud</span>
+        <span className="highlight-item">Full Stack (MERN)</span>
       </div>
     </div>
   </section>
 );
 
+
+
 const Skills = () => (
   <section id="skills" className="container">
     <h2>Skills</h2>
+
     <div className="skills-grid">
       <div className="skill-card glass-card">
-        <i className="fas fa-chart-line"></i>
-        <h3>Data Science Tools</h3>
-        <p>PowerBI, Numpy, Pandas, Seaborn, Matplotlib, Sklearn, Flask , NLTK , gensim  </p>
+        <i className="fas fa-brain"></i>
+        <h3>Machine Learning & NLP</h3>
+        <p>
+          Scikit-learn, TensorFlow/Keras, NLP, RAG, NLTK, Gensim,
+          Feature Engineering, Model Evaluation
+        </p>
       </div>
+
+      <div className="skill-card glass-card">
+        <i className="fas fa-database"></i>
+        <h3>Data & Visualization</h3>
+        <p>
+          Pandas, NumPy, Matplotlib, Seaborn, Power BI
+        </p>
+      </div>
+
       <div className="skill-card glass-card">
         <i className="fas fa-code"></i>
-        <h3>Programming Languages</h3>
+        <h3>Programming</h3>
         <p>Python, Java, C++</p>
       </div>
+
       <div className="skill-card glass-card">
         <i className="fas fa-globe"></i>
-        <h3>Web Development</h3>
-        <p>HTML, CSS, JavaScript, NodeJS, ExpressJS, MERN, Flask</p>
+        <h3>Web & APIs</h3>
+        <p>
+          HTML, CSS, JavaScript, Flask, Node.js, Express.js, MERN Stack
+        </p>
       </div>
+
       <div className="skill-card glass-card">
         <i className="fas fa-cloud"></i>
-        <h3>Cloud & DevOps</h3>
-        <p>AWS, Docker, Kubernetes (Basic), Jenkins, GitHub Actions, ArgoCD</p>
+        <h3>Cloud, DevOps & MLOps</h3>
+        <p>
+          AWS, Docker, Kubernetes (Basics), Jenkins,
+          GitHub Actions, ArgoCD
+        </p>
       </div>
+
       <div className="skill-card glass-card">
         <i className="fas fa-code-branch"></i>
-        <h3>Version Control</h3>
-        <p>Git, GitHub</p>
-      </div>
-      <div className="skill-card glass-card">
-        <i className="fas fa-desktop"></i>
-        <h3>Operating Systems</h3>
-        <p>Linux, Ubuntu, Windows</p>
+        <h3>Tools & Systems</h3>
+        <p>Git, GitHub, Linux, Ubuntu, Windows</p>
       </div>
     </div>
   </section>
 );
+
+
 
 const Projects = () => (
   <section id="projects" className="container">
     <h2>Projects</h2>
     <div className="projects-grid">
+
+      <div className="project-card glass-card">
+        <div className="project-content">
+          <h3>Groq-Powered Knowledge Assistant</h3>
+          <p>
+                 Designed an end-to-end RAG pipeline for multi-format document ingestion (PDF, CSV, Word, JSON) and intelligent query answering. Generated dense embeddings using Sentence Transformers (all-MiniLM-L6-v2), stored in FAISS for fast similarity search, and integrated Groq LLMs (gemma2-9b-it) for high-speed contextual QA and summarization using a modular LangChain-based architecture.
+
+          </p>
+          <div className="tech-stack">
+            <span>Python</span>
+            <span>LangChain</span>
+            <span>Sentence Transformers</span>
+            <span>FAISS</span>
+            <span>Groq LLM</span>
+            <span>RAG</span>
+          </div>
+
+          <a
+            href="https://github.com/VenkataViswas/Groq-Powered-Knowledge-Assistant"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn"
+          >
+            <i className="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+      </div>
+
       <div className="project-card glass-card">
         <div className="project-content">
           <h3>End-to-End ML Project Deployment</h3>
@@ -374,6 +433,37 @@ const Projects = () => (
           </a>
         </div>
       </div>
+      <div className="project-card glass-card">
+  <div className="project-content">
+    <h3>Restaurant Website – MERN Stack</h3>
+    <p>
+      Built a dynamic food ordering platform with an intuitive menu and smooth
+      scrolling experience. Implemented secure user authentication, order
+      history tracking, food rating system, and an admin dashboard for
+      comprehensive site management.
+    </p>
+
+    <div className="tech-stack">
+      <span>MongoDB</span>
+      <span>Express.js</span>
+      <span>React</span>
+      <span>Node.js</span>
+      <span>JWT Auth</span>
+    </div>
+
+    
+    <a
+      href="https://github.com/VenkataViswas/Food-Delivery-System"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="btn"
+    >
+      <i className="fab fa-github"></i> View on GitHub
+    </a> 
+    
+  </div>  
+</div>
+
     </div>
   </section>
 );
